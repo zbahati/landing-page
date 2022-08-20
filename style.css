@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+
+body{
+    overflow-y: auto ;
+}
+
+a{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: 'roboto';
+}
+
+.container{
+    width: 100%;
+    background-color: #1f2937;
+    color: #ffffff;
+   
+}
+
+nav{
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none; 
+    
+}
+
+nav img{
+   width: 70px;
+   border-radius: 50%;
+ 
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 12px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    height: 500px;
+      
+}
+.container .content img{
+    width:500px;
+    height: 250px;
+    opacity: .8;
+}
+.content .page-description h1{
+    font-size: 48px;
+    font-weight: 900;
+    width: 350px;
+    color: #f9f8fa;
+}
+
+.content .page-description p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content .page-description p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content .page-description button{
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+
+.random-informaiton{
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.container .random-informaiton .box-group{
+    width: 100%;
+    height: 100%;
+    margin-top:20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 320px) {
+    .container .random-informaiton{
+        margin-top: 20px;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+
+    .container .random-informaiton .box-group .box{
+        width: 500px;
+    }
+    
+    
+    
+}
+.random-informaiton .title{
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.random-informaiton .box-group .box{
+    width: 20%;
+    height: 50%;
+    background-color: #3882f6;
+    border-radius: 12px;
+    box-shadow: 10px 20px 5px 3px rgb(212, 209, 209);
+}
+
+.random-informaiton .box-group .box img{
+   width: 95%;
+   height: 100%;
+   flex-wrap: wrap;
+   display: flex;
+   margin:auto;
+   padding: 20px;
+}
+
+.random-informaiton .box-group .box .img-description{
+    
+    margin:auto;
+    padding: 10px;
+    text-align: center;    
+    color: white;
+    line-height: 1.5rem;
+    height: 40px;
+ }
+ .random-informaiton .box-group .box .img-description p{
+    font-size: 14px;
+    line-height: 1.3rem;
+    font-family: monospace;
+    padding-top: 10px;
+    color: black;
+}
+
+@media screen and (min-width: 320px) {
+    .container .content {
+        display: block;
+        flex-wrap: wrap;
+        
+    }
+    .container .content .page-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+    .container .content .page-description h1{
+        text-align: center;
+        padding-top: 20px ;
+    }
+
+    .container .content .page-description p{
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .container .content .page-description button{
+        margin:auto;
+    }
+    .container .content img {
+       
+       padding:40px;
+       width: 350px;        
+        
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .container .content {
+        display: flex;
+    }  
+    .container .content img{
+        width: 500px;
+        height: 290px;
+    }
+    
+}
+
+.last-section{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
